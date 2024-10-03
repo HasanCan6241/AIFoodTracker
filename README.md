@@ -37,7 +37,8 @@ This project harnesses the power of deep learning to create an interactive web a
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](path_to_homepage_screenshot)
+<img src="images/home-1.png" alt="home" width="800" height="420">  <!-- Add an image relevant to your project -->
+<img src="images/home-2.png" alt="home" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ### BMI Calculator
 ![BMI Calculator](path_to_bmi_calculator_screenshot)
