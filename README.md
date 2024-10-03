@@ -78,5 +78,5 @@ To set up this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/HasanCan6241/turkish-food-calorie-bmi-calculator.git
-   cd turkish-food-calorie-bmi-calculator
+   git clone https://github.com/HasanCan6241/AIFoodTracker.git
+   cd AIFoodTracker
