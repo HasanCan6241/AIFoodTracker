@@ -46,13 +46,31 @@ This project harnesses the power of deep learning to create an interactive web a
 <img src="images/home-2.png" alt="home" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ### BMI Calculator
-![BMI Calculator](path_to_bmi_calculator_screenshot)
+<img src="images/bmi-1" alt="bmi" width="800" height="420">  <!-- Add an image relevant to your project -->
+
+<br>
+
+<br>
+
+<img src="images/bmi-2" alt="bmi" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ### Calorie Calculator
-![Calorie Calculator](path_to_calorie_calculator_screenshot)
+<img src="images/food-calori-1" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
+<br>
+
+<br>
+<img src="images/food-calori-2" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
+<br>
+
+<br>
+<img src="images/food-calori-3" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
+<br>
+
+<br>
+<img src="images/food-calori-4" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ### Contact Page
-![Contact Page](path_to_contact_page_screenshot)
+<img src="images/contact" alt="contact" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ---
 
