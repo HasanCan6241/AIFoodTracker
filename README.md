@@ -1,7 +1,5 @@
 # 🍽️ Turkish Food Calorie & BMI Calculator
 
-![Project Logo](path_to_your_project_logo) <!-- Proje logonuzu buraya yükleyebilirsiniz -->
-
 ### A comprehensive web application utilizing deep learning to classify Turkish food images and calculate nutritional information.
 
 [![Django](https://img.shields.io/badge/Django-4.0-green.svg)](https://www.djangoproject.com/)
