@@ -1,0 +1,136 @@
+body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(to right, #4CAF50, #8BC34A);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            border-radius: 5px;
+        }
+        .classification-container {
+            padding: 50px;
+            flex: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 600px;
+            margin: auto;
+        }
+        .classification-container h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .classification-form {
+            width: 150%;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        .custom-file-input {
+            cursor: pointer;
+        }
+        .custom-file-label {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .btn-submit {
+            padding: 12px 25px;
+            background-color: #FF5722;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+            width: 100%;
+        }
+        .btn-submit:hover {
+            background-color: #E64A19;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .image-preview {
+            margin-top: 25px;
+            max-width: 200%;
+            max-height: 500px; /* Resmin maksimum yüksekliği */
+            width: 500px;
+            height: 350px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            display: none; /* Başlangıçta gizli */
+        }
+        .chart-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Yatay olarak ortalar */
+            justify-content: center; /* Dikey olarak ortalar */
+            height: 300px; /* Yüksekliği ayarlayın */
+            position: relative; /* İçerik üzerinde konumlandırma yapabilmek için */
+        }
+
+        #calorieChart {
+            /* Dairenin boyutunu ayarlayın */
+            height: 180px;
+            width: 180px;
+        }
+
+        .calorie-amount {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+        }
+        footer p {
+            margin: 0;
+        }

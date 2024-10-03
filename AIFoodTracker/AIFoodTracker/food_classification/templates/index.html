@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Powered Health Tracker</title>
+     {% load static %}
+    <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}" sizes="128x128">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+
+<header>
+    <h1>AI Powered Health Tracker</h1>
+</header>
+
+<nav>
+    <a href="/">Home Page</a>
+    <a href="/bmi">BMI Calculator</a>
+    <a href="/food-classification">Calorie calculator</a>
+    <a href="/contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+        <h2>Your Health, Our Priority</h2>
+        <p>Calculate your Body Mass Index (BMI) and use our AI-powered food image classifier to track your calories and live a healthier life.</p>
+        <a href="/food-classification" class="btn">Start Your Journey</a>
+    </div>
+</div>
+
+<section class="features" id="features">
+    <h3>What We Offer</h3>
+    <div class="feature-box">
+        <div class="feature-item">
+            <img src="https://plus.unsplash.com/premium_photo-1681400641919-d5d03f6c0720?q=80&w=2621&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="BMI Calculation">
+            <h4>Body Mass Index Calculator</h4>
+            <p>Track your BMI and get personalized insights into your health with our easy-to-use calculator.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://plus.unsplash.com/premium_photo-1666920345410-8c9ca9b3c318?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Food Classification">
+            <h4>AI-Based Food Classification</h4>
+            <p>Upload images of your meals and let our AI classify the dish and estimate its calorie content. Our model was trained with a dataset of Turkish food.</p>
+        </div>
+        <div class="feature-item">
+            <img src="https://plus.unsplash.com/premium_photo-1723618898312-54269787cbe0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGVyc29uYWxpemVkJTIwSGVhbHRofGVufDB8fDB8fHww" alt="Health Insights">
+            <h4>Personalized Health Insights</h4>
+            <p>Receive personalized feedback and tips based on your BMI and dietary habits to help you achieve your health goals.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 AI Powered Health Tracker. All Rights Reserved.</p>
+</footer>
+
+<script>
+    // Scroll animation for features
+    window.addEventListener('scroll', function() {
+        const featureItems = document.querySelectorAll('.feature-item');
+        featureItems.forEach(item => {
+            const rect = item.getBoundingClientRect();
+            if (rect.top < window.innerHeight) {
+                item.style.opacity = 1;
+                item.style.transform = 'translateY(0)';
+                item.style.transition = 'opacity 1s ease, transform 1s ease';
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
