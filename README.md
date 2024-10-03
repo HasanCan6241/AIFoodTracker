@@ -2,11 +2,10 @@
 
 ### A comprehensive web application utilizing deep learning to classify Turkish food images and calculate nutritional information.
 
-[![Django](https://img.shields.io/badge/Django-4.0-green.svg)](https://www.djangoproject.com/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0-orange.svg)](https://www.tensorflow.org/)
+[![Django](https://img.shields.io/badge/Django-3.0-green.svg)](https://www.djangoproject.com/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.7-orange.svg)](https://www.tensorflow.org/)
 [![MobileNetV2](https://img.shields.io/badge/MobileNetV2-Pretrained-blue.svg)](https://keras.io/api/applications/mobilenet/)
-[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/)
 
 ---
 
