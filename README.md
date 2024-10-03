@@ -46,31 +46,31 @@ This project harnesses the power of deep learning to create an interactive web a
 <img src="images/home-2.png" alt="home" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ### BMI Calculator
-<img src="images/bmi-1" alt="bmi" width="800" height="420">  <!-- Add an image relevant to your project -->
+<img src="images/bmi-1.png" alt="bmi" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 <br>
 
 <br>
 
-<img src="images/bmi-2" alt="bmi" width="800" height="420">  <!-- Add an image relevant to your project -->
+<img src="images/bmi-2.png" alt="bmi" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ### Calorie Calculator
-<img src="images/food-calori-1" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
+<img src="images/food-calori-1.png" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
 <br>
 
 <br>
-<img src="images/food-calori-2" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
+<img src="images/food-calori-2.png" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
 <br>
 
 <br>
-<img src="images/food-calori-3" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
+<img src="images/food-calori-3.png" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
 <br>
 
 <br>
-<img src="images/food-calori-4" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
+<img src="images/food-calori-4.png" alt="food-calori" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ### Contact Page
-<img src="images/contact" alt="contact" width="800" height="420">  <!-- Add an image relevant to your project -->
+<img src="images/contact.png" alt="contact" width="800" height="420">  <!-- Add an image relevant to your project -->
 
 ---
 
